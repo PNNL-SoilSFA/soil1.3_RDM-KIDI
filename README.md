@@ -8,7 +8,7 @@ This material is free to use, and attribution is always appreciated.  Attributio
 
 Authored by Manokaran Veeramani, Hyun-Seob Song at University of Nebraska-Lincoln xxxxxxxxxxxx.<br>
 Please cite the following in your work:<br>
-> Manokaran Veeramani, Manokaran Veeramani, Natalie Sadler, Song Feng, Ryan McClure, Kirsten Hofmockel, Hyun-Seob Song. (2026) Microbial Spatial Interactions Revealed by Coupled Analyses of Microscopic Images and Reaction-Diffusion Models.<br>
+>  Manokaran Veeramani, Natalie Sadler, Song Feng, Ryan McClure, Kirsten Hofmockel, Hyun-Seob Song. (2026) Microbial Spatial Interactions Revealed by Coupled Analyses of Microscopic Images and Reaction-Diffusion Models.<br>
 > PNNL DataHub: xxxx<br>
 > DOI: xxxx<br>
 
