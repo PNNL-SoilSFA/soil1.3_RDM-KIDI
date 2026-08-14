@@ -23,7 +23,7 @@ VisualizeResultsFull.m - Used to analyze and visualize simulation outputs.
 
 relaabd_bioconc_comp.m - Used to compute relative abundance of microbial species from image data
 
-
+### License
 Released under the Creative Commons 0 Public Domain Dedication: 
 https://creativecommons.org/publicdomain/zero/1.0/
  
