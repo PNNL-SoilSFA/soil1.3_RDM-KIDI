@@ -5,12 +5,7 @@
 runRxnDiff.m - Main script used to configure and execute simulations.
 
 Typical settings include:
-Simulation dimension (1D or 2D)
-Number of nutrients
-Number of bacterial species
-Initial conditions
-Time span
-Numerical solver settings
+Simulation dimension (1D or 2D), Number of nutrients, Number of bacterial species, Initial conditions, Time span, Numerical solver settings
 
 This file calls the parameter file and ODE solver, then sends outputs for visualization.
 Run this file to start the project.
@@ -18,14 +13,7 @@ Run this file to start the project.
 getPara.m - Function used to input all model parameters.
 
 Typical parameters include:
-Maximum growth rates
-Half-saturation constants
-Yield coefficients
-Diffusion coefficients of substrates and bacteria
-Domain size
-Grid resolution
-Death rate constants
-Initial nutrient and biomass concentrations
+Maximum growth rates, Half-saturation constants, Yield coefficients, Diffusion coefficients of substrates and bacteria, Domain size, Grid resolution, Death rate constants, Initial nutrient and biomass concentrations
 
 myOde.m - Core model function.
 
