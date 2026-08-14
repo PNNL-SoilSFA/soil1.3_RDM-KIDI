@@ -1,5 +1,40 @@
 # Code for soil1.3_RDM-KIDI paper
 
+## File descriptions
+
+runRxnDiff.m - Main script used to configure and execute simulations.
+
+Typical settings include:
+Simulation dimension (1D or 2D)
+Number of nutrients
+Number of bacterial species
+Initial conditions
+Time span
+Numerical solver settings
+
+This file calls the parameter file and ODE solver, then sends outputs for visualization.
+Run this file to start the project.
+
+getPara.m - Function used to input all model parameters.
+
+Typical parameters include:
+Maximum growth rates
+Half-saturation constants
+Yield coefficients
+Diffusion coefficients of substrates and bacteria
+Domain size
+Grid resolution
+Death rate constants
+Initial nutrient and biomass concentrations
+
+myOde.m - Core model function.
+
+This function converts the reaction-diffusion PDE system into a large system of ODEs using finite differences.
+
+VisualizeResultsFull.m - Used to analyze and visualize simulation outputs.
+
+relaabd_bioconc_comp.m - Used to compute relative abundance of microbial species from image data
+
 
 Released under the Creative Commons 0 Public Domain Dedication: 
 https://creativecommons.org/publicdomain/zero/1.0/
