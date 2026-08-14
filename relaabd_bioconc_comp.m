@@ -54,7 +54,7 @@ for k = 1:nt
     end
 end
 
-%% Relative abundance computation
+%% Relative abundance computation (grid specific)
 
 for k = 1:nt
 
@@ -70,5 +70,18 @@ for k = 1:nt
     nonzero = total_intensity > 0; % ignoring 0/0
 
     rela_abd_nag{k}(nonzero,:) = intensity(nonzero,:) ./ total_intensity(nonzero,:);
+
+end
+
+%% Overall relative abundance computation for a time point (fractional area computed)
+
+for k = 1:nt
+
+    for j = 1:numel(b_fields)
+        b_field = b_fields{j};
+        area(k,j) = sum(data_nag.(b_field){k}(:)>0);
+    end
+
+    frac_area(k,:) = area(k,:)./sum(area(k,:), 2);
 
 end
